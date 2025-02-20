@@ -1,6 +1,6 @@
 <Qucs Schematic 24.4.1>
 <Properties>
-  <View=15,20,898,537,1.10445,0,0>
+  <View=-7,10,855,565,1.13069,0,0>
   <Grid=10,10,0>
   <DataSet=transister_DC.dat>
   <DataDisplay=transister_DC.sch>
@@ -20,7 +20,7 @@
 <Wires>
 </Wires>
 <Diagrams>
-  <Rect 110 474 628 424 3 #c0c0c0 1 00 1 0 2 20 1 -0.00213203 0.005 0.025 1 -1 0.2 1 315 0 225 1 0 0 "" "" "">
+  <Rect 110 474 628 424 3 #c0c0c0 1 00 0 0 2 20 0 0 0.005 0.025 1 -1 0.2 1 315 0 225 1 0 0 "" "" "">
 	<"Ic.I" #0000ff 0 3 0 0 0>
   </Rect>
 </Diagrams>
