@@ -1,6 +1,6 @@
-<Qucs Schematic 24.4.1>
+<Qucs Schematic 25.1.0>
 <Properties>
-  <View=0,-120,975,451,1,0,0>
+  <View=-14,-164,753,285,1.27285,0,0>
   <Grid=10,10,1>
   <DataSet=AC simulation.dat>
   <DataDisplay=AC simulation.dpl>
@@ -23,7 +23,7 @@
   <R R1 1 360 140 -26 15 0 0 "1 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
   <L L1 1 490 140 -26 10 0 0 "1 uH" 1 "" 0>
   <C C1 1 620 140 -26 17 0 0 "1 uF" 1 "" 0 "neutral" 0>
-  <.AC AC1 1 30 -50 0 36 0 0 "log" 1 "1 Hz" 1 "1 MHz" 1 "601" 1 "no" 0>
+  <.AC AC1 1 30 -130 0 36 0 0 "log" 1 "1 Hz" 1 "10 MHz" 1 "601" 1 "no" 0>
 </Components>
 <Wires>
   <120 140 120 170 "" 0 0 0 "">
@@ -34,6 +34,9 @@
   <650 140 700 140 "" 0 0 0 "">
 </Wires>
 <Diagrams>
+  <Rect 380 20 240 160 3 #c0c0c0 1 11 0 1000 1 1e+07 0 0.001 1 1 1 -1 1 1 315 0 225 1 0 0 "周波数 [Hz]" "電流 [A]" "">
+	<"Pr1.i" #0000ff 1 3 0 0 0>
+  </Rect>
 </Diagrams>
 <Paintings>
   <Text 330 250 11 #000000 0 "RLC直列共振回路のAC解析">

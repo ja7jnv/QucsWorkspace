@@ -1,6 +1,6 @@
 <Qucs Schematic 25.1.0>
 <Properties>
-  <View=-118,-47,944,575,0.918079,0,0>
+  <View=-20,-44,947,522,1.00827,0,0>
   <Grid=10,10,0>
   <DataSet=opamp.transient.dat>
   <DataDisplay=opamp.transient.sch>
